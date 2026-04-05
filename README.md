@@ -112,7 +112,7 @@ The model was trained on 238,750 diversity-aware labels derived from 13.49 milli
   title   = {CartoPalette: Context-Aware Colour Palette Generation for Thematic
              Maps Using a CVAE-Based Generator-Scorer-Reranker Pipeline},
   author  = {Drews, J.},
-  journal = {KN -- Journal of Cartography and Geographic Information},
+  journal = {},
   year    = {2026}
 }
 ```
