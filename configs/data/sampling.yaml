@@ -1,0 +1,43 @@
+# ChromaMap — Sampling-Konfiguration
+
+zoom_levels:
+  - zoom: 4
+    scale_approx: "1:35M"
+    character: "Kontinental, wenige Farben"
+    scale_class: "overview"   # Conditioning-Variable
+  - zoom: 6
+    scale_approx: "1:9M"
+    character: "Ländergrenzen, grobe Landbedeckung"
+    scale_class: "overview"
+  - zoom: 8
+    scale_approx: "1:2M"
+    character: "Regionale Strukturen, Straßen angedeutet"
+    scale_class: "regional"
+  - zoom: 10
+    scale_approx: "1:500k"
+    character: "Städte als Flächen, Straßennetz"
+    scale_class: "regional"
+  - zoom: 12
+    scale_approx: "1:140k"
+    character: "Urban-Detail, Gebäudeblöcke"
+    scale_class: "local"
+  - zoom: 14
+    scale_approx: "1:35k"
+    character: "Einzelgebäude, hohe Texturkomplexität"
+    scale_class: "local"
+
+# Patch-Konfiguration
+patch:
+  grid_size: 3              # 3x3 Tiles pro Patch
+  tile_size: 256             # Pixel pro Tile
+  composed_size: 768         # 3 * 256
+  output_size: 256           # Resize-Ziel für Modell-Input
+  interpolation: "lanczos"   # Hochwertiges Resampling
+
+# Download-Parameter
+download:
+  rate_limit_seconds: 1.0    # Mindestabstand zwischen Requests
+  max_retries: 3
+  retry_delay_seconds: 5
+  timeout_seconds: 30
+  random_seed: 42            # Für Reproduzierbarkeit

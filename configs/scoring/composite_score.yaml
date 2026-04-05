@@ -1,0 +1,52 @@
+# CartoPalette v4 — Composite Score Configuration
+#
+# Key change vs v3: 80% basemap-dependent weight (was 30%)
+# Kartographische Grundlage: Brewer 1994, Harrower & Brewer 2003, Kovesi 2015
+#
+# Only sequential and diverging schemes (qualitative dropped)
+
+weights:
+  sequential_diverging:
+    # Basemap-dependent (80% total):
+    basemap_contrast: 0.20       # Figure-Ground: CIEDE2000 to basemap (worst-case weighted)
+    lightness_contrast: 0.30     # L* zone avoidance: palette L* must differ from basemap L*
+    hue_contrast: 0.30           # Hue avoidance: palette hue must differ from basemap hue
+
+    # Universal quality (20% total):
+    distinguishability: 0.10     # Min pairwise CIEDE2000 within palette
+    cvd_robustness: 0.05         # Distinguishability under simulated color blindness
+    perceptual_ordering: 0.05    # L* monotonicity + step uniformity
+
+# Schwellenwerte (fixed, kartographisch begründet)
+thresholds:
+  basemap_contrast_dE: 40.0       # dE00 normalization ceiling for basemap contrast
+  distinguishability_dE: 30.0     # dE00 normalization ceiling for inter-palette distances
+  cvd_robustness_dE: 20.0         # dE00 normalization ceiling under CVD simulation
+  lightness_safe_delta_L: 15.0    # L* units: color is "safe" if > this from basemap
+  lightness_norm_delta_L: 30.0    # L* units: for continuous separation scoring
+  hue_confidence_chroma: 15.0     # Chroma below this = basemap hue is unreliable
+  basemap_kmeans_k: 10            # Number of dominant basemap colors
+
+# Kandidaten-Konfiguration (v4: basemap-adaptive)
+candidates:
+  n_colorbrewer_base: 35          # Stage 1: All relevant ColorBrewer palettes
+  n_basemap_adaptive: 150         # Stage 2: Basemap-adaptive CIELAB variations (NEW)
+  n_contrast_optimized: 50        # Stage 3: Full L*/Hue/Chroma optimization (EXPANDED)
+  n_synthetic: 100                # Stage 4: Purely synthetic basemap-optimal palettes (NEW)
+  contrast_optimization_steps: 80 # More iterations for better optimization
+
+  # Stage 2: Basemap-adaptive perturbation parameters
+  # (L* shifts chosen relative to basemap, not fixed)
+  chroma_scales: [0.7, 0.85, 1.0, 1.15, 1.3]
+  hue_rotations_deg: [-45, -30, -15, 15, 30, 45]  # Wider range than v3
+
+# Labeling
+labeling:
+  top_k: 5                         # Positive labels per configuration
+  bottom_k: 5                      # Negative labels per configuration
+  diversity_weight: 0.3             # For diversity-aware top-k selection
+  scheme_types: ["sequential", "diverging"]  # NO qualitative
+  n_classes_values: [3, 4, 5, 7, 9]
+
+# Normalisierung: NONE (absolute thresholds, not min-max per basemap)
+normalization: "none"
