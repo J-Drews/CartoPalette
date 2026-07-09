@@ -1,0 +1,30 @@
+{
+  "total_labels": 238750,
+  "positive_labels": 238750,
+  "unique_basemaps": 4775,
+  "splits": {
+    "train": 33440,
+    "val": 7170,
+    "test": 7140
+  },
+  "score_distribution": {
+    "mean": 0.6570710325159669,
+    "std": 0.11555501448413656,
+    "min": 0.30480457712142756,
+    "max": 1.0186136348924069,
+    "q25": 0.6006343922436693,
+    "median": 0.6714322498797018,
+    "q75": 0.7329525430918569
+  },
+  "scheme_type_distribution": {
+    "diverging": 119375,
+    "sequential": 119375
+  },
+  "source_distribution": {
+    "cielab_adaptive": 91150,
+    "synthetic": 110380,
+    "contrast_optimized": 26369,
+    "colorbrewer": 10851
+  },
+  "diversity_weight_used": 0.3
+}

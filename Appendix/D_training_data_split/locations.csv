@@ -1,0 +1,81 @@
+id,name,lat,lon,climate_zone,land_cover,split
+loc_001,New York,40.7128,-74.0060,temperate,urban,train
+loc_002,Lagos,6.5244,3.3792,tropical,urban,train
+loc_003,Tokyo,35.6762,139.6503,temperate,urban,train
+loc_004,São Paulo,-23.5505,-46.6333,subtropical,urban,train
+loc_005,Mumbai,19.0760,72.8777,tropical,urban,train
+loc_006,Sydney,-33.8688,151.2093,subtropical,urban,val
+loc_007,Kairo,30.0444,31.2357,subtropical,urban,train
+loc_008,Moskau,55.7558,37.6173,continental,urban,train
+loc_009,Jakarta,-6.2088,106.8456,tropical,urban,train
+loc_010,Berlin,52.5200,13.4050,temperate,urban,train
+loc_011,London,51.5074,-0.1278,temperate,urban,train
+loc_012,Mexico City,19.4326,-99.1332,subtropical,urban,train
+loc_013,Nairobi,-1.2921,36.8219,tropical,urban,val
+loc_014,Bangkok,13.7563,100.5018,tropical,urban,train
+loc_015,Seoul,37.5665,126.9780,temperate,urban,val
+loc_016,Istanbul,41.0082,28.9784,temperate,urban,train
+loc_017,Buenos Aires,-34.6037,-58.3816,temperate,urban,train
+loc_018,Toronto,43.6532,-79.3832,continental,urban,val
+loc_019,Kapstadt,-33.9249,18.4241,subtropical,urban,train
+loc_020,Peking,39.9042,116.4074,continental,urban,test
+loc_021,Fjorde Norwegens,61.5000,6.5000,polar_subarctic,coast,train
+loc_022,Mittelmeer Barcelona,41.3851,2.1734,subtropical,coast,train
+loc_023,Great Barrier Reef,-18.2871,147.6992,tropical,coast,train
+loc_024,Amazonasmündung,-0.5000,-49.5000,tropical,coast,train
+loc_025,Ostsee Rügen,54.4000,13.4000,temperate,coast,train
+loc_026,Malediven,4.1755,73.5093,tropical,coast,val
+loc_027,Karibik Curaçao,12.1696,-68.9900,tropical,coast,train
+loc_028,Bucht von Tokio,35.4500,139.7500,temperate,coast,train
+loc_029,Rotes Meer,22.0000,38.0000,subtropical,coast,train
+loc_030,US-Ostküste Charleston,32.7765,-79.9311,subtropical,coast,val
+loc_031,Mosambik-Küste,-25.9692,32.5732,tropical,coast,train
+loc_032,Island Südküste,63.5000,-19.0000,polar_subarctic,coast,test
+loc_033,Alpen Innsbruck,47.2692,11.4041,temperate,mountain,train
+loc_034,Himalaya Ladakh,34.1526,77.5771,polar_subarctic,mountain,train
+loc_035,Sahara,23.0000,12.0000,subtropical,desert,train
+loc_036,Atacama,-24.5000,-69.2500,subtropical,desert,test
+loc_037,Rocky Mountains,39.5501,-105.7821,continental,mountain,train
+loc_038,Ural,56.8000,59.0000,continental,mountain,test
+loc_039,Anden Patagonien,-47.0000,-72.0000,polar_subarctic,mountain,train
+loc_040,Gobi,43.0000,105.0000,continental,desert,train
+loc_041,Kilimandscharo,-3.0674,37.3556,tropical,mountain,val
+loc_042,Outback Australien,-25.0000,134.0000,subtropical,desert,train
+loc_043,Atlas-Gebirge,31.5000,-5.5000,subtropical,mountain,train
+loc_044,Karpaten,47.5000,25.0000,temperate,mountain,train
+loc_045,Äthiopisches Hochland,9.0000,38.5000,tropical,mountain,train
+loc_046,Toskana,43.3500,11.3500,temperate,rural,train
+loc_047,Iowa Farmland,42.0000,-93.5000,continental,rural,train
+loc_048,Reisterrassen Bali,-8.4095,115.4150,tropical,rural,train
+loc_049,Kenianische Savanne,-1.5000,37.0000,tropical,rural,val
+loc_050,Zentralfrankreich,46.5000,2.5000,temperate,rural,train
+loc_051,Mecklenburg-Vorpommern,53.8000,12.2000,temperate,rural,train
+loc_052,Hokkaido,43.0000,143.0000,temperate,rural,val
+loc_053,Punjab,31.0000,74.0000,subtropical,rural,train
+loc_054,Dordogne,44.8500,0.7500,temperate,rural,train
+loc_055,Nil-Delta,31.0000,31.0000,subtropical,rural,train
+loc_056,Mekong-Delta,10.0000,106.0000,tropical,rural,test
+loc_057,Mongolische Steppe,47.0000,107.0000,continental,rural,test
+loc_058,Arabische Wüste,24.0000,45.0000,subtropical,desert,test
+loc_059,Tromsø,69.6496,18.9560,polar_subarctic,urban,train
+loc_060,Reykjavik,64.1466,-21.9426,polar_subarctic,urban,test
+loc_061,Singapur,1.3521,103.8198,tropical,urban,train
+loc_062,Dubai,25.2048,55.2708,subtropical,urban,train
+loc_063,Venedig,45.4408,12.3155,temperate,coast,test
+loc_064,Havanna,23.1136,-82.3666,tropical,urban,train
+loc_065,Addis Abeba,9.0250,38.7469,tropical,urban,train
+loc_066,Lima,-12.0464,-77.0428,subtropical,urban,val
+loc_067,Santiago,-33.4489,-70.6693,temperate,urban,train
+loc_068,Kinshasa,-4.4419,15.2663,tropical,urban,train
+loc_069,Dhaka,23.8103,90.4125,tropical,urban,train
+loc_070,Manaus,-3.1190,-60.0217,tropical,urban,val
+loc_071,Wadi Rum,29.5321,35.4139,subtropical,desert,test
+loc_072,Svalbard,78.2232,15.6267,polar_subarctic,mountain,train
+loc_073,Ganges-Delta,22.0000,89.0000,tropical,coast,train
+loc_074,Okavango-Delta,-19.5000,22.5000,subtropical,rural,train
+loc_075,Kamtschatka,53.0000,158.0000,polar_subarctic,mountain,val
+loc_076,Essen,51.4556,7.0116,temperate,urban,train
+loc_077,Amazonas Regenwald,-3.0000,-60.0000,tropical,rural,test
+loc_078,Sibirien Taiga,62.0000,100.0000,continental,rural,train
+loc_079,Neuseeländische Alpen,-43.5000,170.0000,temperate,mountain,test
+loc_080,Grönland Eiskappe,72.0000,-40.0000,polar_subarctic,desert,train

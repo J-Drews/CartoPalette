@@ -1,0 +1,453 @@
+{
+  "n_basemaps": 40,
+  "seed": 42,
+  "summary": {
+    "providers": {
+      "carto_dark": 4,
+      "carto_positron": 4,
+      "esri_lightgray": 4,
+      "osm": 4,
+      "carto_voyager": 4,
+      "esri_imagery": 4,
+      "otm": 4,
+      "stadia_terrain": 4,
+      "stadia_watercolor": 4,
+      "stadia_toner": 4
+    },
+    "zoom_ranges": {
+      "overview": 10,
+      "regional": 20,
+      "local": 10
+    },
+    "land_covers": {
+      "urban": 10,
+      "rural": 10,
+      "desert": 8,
+      "coast": 4,
+      "mountain": 8
+    },
+    "climate_zones": {
+      "polar_subarctic": 9,
+      "continental": 11,
+      "subtropical": 8,
+      "temperate": 5,
+      "tropical": 7
+    },
+    "locations": {
+      "Reykjavik": 7,
+      "Mongolische Steppe": 3,
+      "Atacama": 4,
+      "Venedig": 2,
+      "Island Südküste": 2,
+      "Amazonas Regenwald": 5,
+      "Wadi Rum": 3,
+      "Ural": 5,
+      "Neuseeländische Alpen": 3,
+      "Peking": 3,
+      "Mekong-Delta": 2,
+      "Arabische Wüste": 1
+    }
+  },
+  "basemaps": [
+    {
+      "provider": "carto_dark",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z6",
+      "zoom_range": "overview",
+      "basemap_filename": "carto_dark_loc_060_z6.png"
+    },
+    {
+      "provider": "carto_dark",
+      "location_id": "loc_057",
+      "location_name": "Mongolische Steppe",
+      "climate_zone": "continental",
+      "land_cover": "rural",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_dark_loc_057_z10.png"
+    },
+    {
+      "provider": "carto_dark",
+      "location_id": "loc_036",
+      "location_name": "Atacama",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z14",
+      "zoom_range": "local",
+      "basemap_filename": "carto_dark_loc_036_z14.png"
+    },
+    {
+      "provider": "carto_dark",
+      "location_id": "loc_063",
+      "location_name": "Venedig",
+      "climate_zone": "temperate",
+      "land_cover": "coast",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_dark_loc_063_z10.png"
+    },
+    {
+      "provider": "carto_positron",
+      "location_id": "loc_036",
+      "location_name": "Atacama",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "carto_positron_loc_036_z4.png"
+    },
+    {
+      "provider": "carto_positron",
+      "location_id": "loc_032",
+      "location_name": "Island Südküste",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "coast",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_positron_loc_032_z10.png"
+    },
+    {
+      "provider": "carto_positron",
+      "location_id": "loc_077",
+      "location_name": "Amazonas Regenwald",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z14",
+      "zoom_range": "local",
+      "basemap_filename": "carto_positron_loc_077_z14.png"
+    },
+    {
+      "provider": "carto_positron",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_positron_loc_060_z8.png"
+    },
+    {
+      "provider": "esri_lightgray",
+      "location_id": "loc_077",
+      "location_name": "Amazonas Regenwald",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "esri_lightgray_loc_077_z4.png"
+    },
+    {
+      "provider": "esri_lightgray",
+      "location_id": "loc_071",
+      "location_name": "Wadi Rum",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "esri_lightgray_loc_071_z10.png"
+    },
+    {
+      "provider": "esri_lightgray",
+      "location_id": "loc_032",
+      "location_name": "Island Südküste",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "coast",
+      "zoom": "z12",
+      "zoom_range": "local",
+      "basemap_filename": "esri_lightgray_loc_032_z12.png"
+    },
+    {
+      "provider": "esri_lightgray",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "esri_lightgray_loc_060_z10.png"
+    },
+    {
+      "provider": "osm",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "osm_loc_060_z4.png"
+    },
+    {
+      "provider": "osm",
+      "location_id": "loc_038",
+      "location_name": "Ural",
+      "climate_zone": "continental",
+      "land_cover": "mountain",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "osm_loc_038_z10.png"
+    },
+    {
+      "provider": "osm",
+      "location_id": "loc_036",
+      "location_name": "Atacama",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z14",
+      "zoom_range": "local",
+      "basemap_filename": "osm_loc_036_z14.png"
+    },
+    {
+      "provider": "osm",
+      "location_id": "loc_079",
+      "location_name": "Neuseeländische Alpen",
+      "climate_zone": "temperate",
+      "land_cover": "mountain",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "osm_loc_079_z10.png"
+    },
+    {
+      "provider": "carto_voyager",
+      "location_id": "loc_077",
+      "location_name": "Amazonas Regenwald",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z6",
+      "zoom_range": "overview",
+      "basemap_filename": "carto_voyager_loc_077_z6.png"
+    },
+    {
+      "provider": "carto_voyager",
+      "location_id": "loc_020",
+      "location_name": "Peking",
+      "climate_zone": "continental",
+      "land_cover": "urban",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_voyager_loc_020_z10.png"
+    },
+    {
+      "provider": "carto_voyager",
+      "location_id": "loc_038",
+      "location_name": "Ural",
+      "climate_zone": "continental",
+      "land_cover": "mountain",
+      "zoom": "z14",
+      "zoom_range": "local",
+      "basemap_filename": "carto_voyager_loc_038_z14.png"
+    },
+    {
+      "provider": "carto_voyager",
+      "location_id": "loc_063",
+      "location_name": "Venedig",
+      "climate_zone": "temperate",
+      "land_cover": "coast",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "carto_voyager_loc_063_z8.png"
+    },
+    {
+      "provider": "esri_imagery",
+      "location_id": "loc_071",
+      "location_name": "Wadi Rum",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "esri_imagery_loc_071_z4.png"
+    },
+    {
+      "provider": "esri_imagery",
+      "location_id": "loc_036",
+      "location_name": "Atacama",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "esri_imagery_loc_036_z10.png"
+    },
+    {
+      "provider": "esri_imagery",
+      "location_id": "loc_077",
+      "location_name": "Amazonas Regenwald",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z14",
+      "zoom_range": "local",
+      "basemap_filename": "esri_imagery_loc_077_z14.png"
+    },
+    {
+      "provider": "esri_imagery",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "esri_imagery_loc_060_z8.png"
+    },
+    {
+      "provider": "otm",
+      "location_id": "loc_020",
+      "location_name": "Peking",
+      "climate_zone": "continental",
+      "land_cover": "urban",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "otm_loc_020_z4.png"
+    },
+    {
+      "provider": "otm",
+      "location_id": "loc_079",
+      "location_name": "Neuseeländische Alpen",
+      "climate_zone": "temperate",
+      "land_cover": "mountain",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "otm_loc_079_z8.png"
+    },
+    {
+      "provider": "otm",
+      "location_id": "loc_057",
+      "location_name": "Mongolische Steppe",
+      "climate_zone": "continental",
+      "land_cover": "rural",
+      "zoom": "z12",
+      "zoom_range": "local",
+      "basemap_filename": "otm_loc_057_z12.png"
+    },
+    {
+      "provider": "otm",
+      "location_id": "loc_056",
+      "location_name": "Mekong-Delta",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "otm_loc_056_z10.png"
+    },
+    {
+      "provider": "stadia_terrain",
+      "location_id": "loc_057",
+      "location_name": "Mongolische Steppe",
+      "climate_zone": "continental",
+      "land_cover": "rural",
+      "zoom": "z6",
+      "zoom_range": "overview",
+      "basemap_filename": "stadia_terrain_loc_057_z6.png"
+    },
+    {
+      "provider": "stadia_terrain",
+      "location_id": "loc_038",
+      "location_name": "Ural",
+      "climate_zone": "continental",
+      "land_cover": "mountain",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_terrain_loc_038_z8.png"
+    },
+    {
+      "provider": "stadia_terrain",
+      "location_id": "loc_079",
+      "location_name": "Neuseeländische Alpen",
+      "climate_zone": "temperate",
+      "land_cover": "mountain",
+      "zoom": "z12",
+      "zoom_range": "local",
+      "basemap_filename": "stadia_terrain_loc_079_z12.png"
+    },
+    {
+      "provider": "stadia_terrain",
+      "location_id": "loc_056",
+      "location_name": "Mekong-Delta",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_terrain_loc_056_z8.png"
+    },
+    {
+      "provider": "stadia_watercolor",
+      "location_id": "loc_038",
+      "location_name": "Ural",
+      "climate_zone": "continental",
+      "land_cover": "mountain",
+      "zoom": "z4",
+      "zoom_range": "overview",
+      "basemap_filename": "stadia_watercolor_loc_038_z4.png"
+    },
+    {
+      "provider": "stadia_watercolor",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_watercolor_loc_060_z10.png"
+    },
+    {
+      "provider": "stadia_watercolor",
+      "location_id": "loc_071",
+      "location_name": "Wadi Rum",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z12",
+      "zoom_range": "local",
+      "basemap_filename": "stadia_watercolor_loc_071_z12.png"
+    },
+    {
+      "provider": "stadia_watercolor",
+      "location_id": "loc_058",
+      "location_name": "Arabische Wüste",
+      "climate_zone": "subtropical",
+      "land_cover": "desert",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_watercolor_loc_058_z10.png"
+    },
+    {
+      "provider": "stadia_toner",
+      "location_id": "loc_077",
+      "location_name": "Amazonas Regenwald",
+      "climate_zone": "tropical",
+      "land_cover": "rural",
+      "zoom": "z6",
+      "zoom_range": "overview",
+      "basemap_filename": "stadia_toner_loc_077_z6.png"
+    },
+    {
+      "provider": "stadia_toner",
+      "location_id": "loc_038",
+      "location_name": "Ural",
+      "climate_zone": "continental",
+      "land_cover": "mountain",
+      "zoom": "z10",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_toner_loc_038_z10.png"
+    },
+    {
+      "provider": "stadia_toner",
+      "location_id": "loc_020",
+      "location_name": "Peking",
+      "climate_zone": "continental",
+      "land_cover": "urban",
+      "zoom": "z12",
+      "zoom_range": "local",
+      "basemap_filename": "stadia_toner_loc_020_z12.png"
+    },
+    {
+      "provider": "stadia_toner",
+      "location_id": "loc_060",
+      "location_name": "Reykjavik",
+      "climate_zone": "polar_subarctic",
+      "land_cover": "urban",
+      "zoom": "z8",
+      "zoom_range": "regional",
+      "basemap_filename": "stadia_toner_loc_060_z8.png"
+    }
+  ]
+}

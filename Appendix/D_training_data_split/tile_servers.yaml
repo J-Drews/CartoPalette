@@ -1,0 +1,92 @@
+# ChromaMap — Tile Server Konfiguration
+# Nur Server ohne API-Key-Pflicht (Stand: März 2026)
+# Stadia Maps (Stamen-Stile) wird separat hinzugefügt wenn API-Key vorhanden
+
+tile_servers:
+  osm:
+    name: "OpenStreetMap Standard"
+    url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+    license: "ODbL (© OpenStreetMap contributors)"
+    character: "Mittel hell, bunt, detailreich"
+    category: "hell"
+    max_zoom: 19
+    headers:
+      User-Agent: "ChromaMap-Research/1.0 (academic research)"
+
+  carto_positron:
+    name: "CartoDB Positron"
+    url: "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+    license: "CC BY 3.0 (© CARTO)"
+    character: "Sehr hell, entsättigt, minimalistisch"
+    category: "hell"
+    max_zoom: 20
+
+  carto_dark:
+    name: "CartoDB Dark Matter"
+    url: "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+    license: "CC BY 3.0 (© CARTO)"
+    character: "Dunkel, hoher Kontrast"
+    category: "dunkel"
+    max_zoom: 20
+
+  carto_voyager:
+    name: "CartoDB Voyager"
+    url: "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+    license: "CC BY 3.0 (© CARTO)"
+    character: "Warm, ausgeglichen, modern"
+    category: "hell"
+    max_zoom: 20
+
+  otm:
+    name: "OpenTopoMap"
+    url: "https://tile.opentopomap.org/{z}/{x}/{y}.png"
+    license: "CC BY-SA (© OpenTopoMap)"
+    character: "Topographisch, Höhenlinien, Grüntöne"
+    category: "terrain"
+    max_zoom: 17
+
+  esri_imagery:
+    name: "Esri World Imagery"
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    license: "Esri (free for research/non-commercial)"
+    character: "Satellitenbild, fotorealistisch"
+    category: "satellit"
+    max_zoom: 19
+
+  esri_lightgray:
+    name: "Esri Light Gray Canvas"
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+    license: "Esri (free for research/non-commercial)"
+    character: "Minimalistisch grau, wenig Farbe"
+    category: "hell"
+    max_zoom: 16
+
+  stadia_terrain:
+    name: "Stadia Stamen Terrain"
+    url: "https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png"
+    license: "Stadia Maps Free Tier (© Stadia Maps, © Stamen Design, © OpenMapTiles, © OpenStreetMap)"
+    character: "Gelände-Reliefschattierung, Erdtöne, Höhenlinien"
+    category: "terrain"
+    max_zoom: 18
+    requires_api_key: true
+
+  stadia_toner:
+    name: "Stadia Stamen Toner"
+    url: "https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png"
+    license: "Stadia Maps Free Tier (© Stadia Maps, © Stamen Design, © OpenMapTiles, © OpenStreetMap)"
+    character: "Schwarz-Weiß, grafisch, hoher Kontrast"
+    category: "dunkel"
+    max_zoom: 20
+    requires_api_key: true
+
+  stadia_watercolor:
+    name: "Stadia Stamen Watercolor"
+    url: "https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg"
+    license: "Stadia Maps Free Tier (© Stadia Maps, © Stamen Design, © OpenMapTiles, © OpenStreetMap)"
+    character: "Aquarell-Ästhetik, weiche Kanten, künstlerisch"
+    category: "kuenstlerisch"
+    max_zoom: 18
+    requires_api_key: true
+
+# Stadia Maps API-Key wird aus der .env-Datei gelesen.
+# Siehe .env.example für das Format.
